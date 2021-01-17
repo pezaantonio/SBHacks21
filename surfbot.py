@@ -34,4 +34,5 @@ async def on_message(message):
             await message.channel.send(json.dumps(data[0]['condition'], indent=2))
 
 # This is the final function that will run the bot
-client.run("Nzk5ODg4NzgzNDE1MzEyMzk0.YAKIew.0ewMYmTqO-alhXJQQiKRRW6TT4s")
+# Token is removed for security
+client.run("Token")
